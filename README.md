@@ -34,7 +34,6 @@ graph TD
 
 ---
 
-### ۴. ارتباط خط لوله CI/CD با Docker
 * محیط تست یکنواخت: پایپ‌لاین پیش از انتشار، کدها را بررسی می‌کند و داکر تضمین می‌کند وابستگی‌ها در هر محیطی بدون تداخل اجرا شوند[span_4](start_span)[span_4](end_span)[span_5](start_span)[span_5](end_span).
 * تولید خروجی استاندارد: پس از تأیید سلامت تست‌ها، خط لوله وظیفه دارد با دستور docker build -t quick-notes-api:1.0 . برنامه را به یک کانتینر استاندارد و قابل حمل تبدیل کند[span_6](start_span)[span_6](end_span)[span_7](start_span)[span_7](end_span).
 * استقرار آسان: با اجرای خودکار کانتینر از طریق داکر، ریسک ناهماهنگی نسخه و مشکلات سرور به حداقل می‌رسد[span_8](start_span)[span_8](end_span)[span_9](start_span)[span_9](end_span).
